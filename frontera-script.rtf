@@ -1,31 +1,29 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf600
-{\fonttbl\f0\fnil\fcharset0 Georgia;}
+{\fonttbl\f0\fnil\fcharset0 Georgia;\f1\fnil\fcharset0 Menlo-Regular;}
 {\colortbl;\red255\green255\blue255;\red20\green20\blue20;\red255\green255\blue255;\red12\green100\blue192;
-\red20\green20\blue20;\red255\green255\blue255;}
+\red0\green0\blue0;\red255\green255\blue255;}
 {\*\expandedcolortbl;\csgray\c100000;\cssrgb\c10196\c10196\c10196;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c47843\c80000;
-\cssrgb\c10196\c10196\c10196;\cssrgb\c100000\c100000\c100000;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\csgray\c0;\csgray\c100000;}
+\margl1440\margr1440\vieww14920\viewh11380\viewkind0
 \deftab720
 \pard\pardeftab720\sl380\sa560\partightenfactor0
 
 \f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 apt-get update\
+apt-get update\
 apt-get install build-essential checkinstall\
 apt-get install wget git\
-sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev\'a0libffi-dev\
-wget {\field{\*\fldinst{HYPERLINK "http://python.org/ftp/python/2.7.10/Python-2.7.10.tgz"}}{\fldrslt \cf4 \strokec4 http://python.org/ftp/python/2.7.10/Python-2.7.10.tgz}}\
-tar -xvf Python-2.7.10.tgz\
-cd Python-2.7.10\
-./configure\
-make\
-sudo checkinstall\
-wget {\field{\*\fldinst{HYPERLINK "https://bootstrap.pypa.io/get-pip.py"}}{\fldrslt \cf4 \strokec4 https://bootstrap.pypa.io/get-pip.py}}\
+Q\
+Sudo apt-get install python\
+wget {\field{\*\fldinst{HYPERLINK "https://bootstrap.pypa.io/get-pip.py"}}{\fldrslt \cf4 https://bootstrap.pypa.io/get-pip.py}}\
 sudo python get-pip.py\
-sudo pip install pymongo\
+sudo pip install pymongo 
+\f1\fs26 \cf5 \cb6 \kerning1\expnd0\expndtw0 \CocoaLigature0 cachetools sqlalchemy
+\f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
 sudo apt-get install python-dev libxml2-dev libxslt1-dev\
 sudo pip install scrapy\
 \pard\pardeftab720\sl380\partightenfactor0
 \cf2 git clone https://github.com/loitv1689/frontera-0.52.git\
-cd \cf5 \cb6 \outl0\strokewidth0 frontera-0.52\
-python setup.py install \cf2 \cb3 \outl0\strokewidth0 \strokec2 \
+cd frontera-0.52\
+python setup.py install \
 }
